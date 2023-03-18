@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+#center-component{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 550px;
+  border: 1px solid #A626D3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#meme-pic{
+  position: absolute;
+  width: 31.31px;
+  height: 26.22px;
+  left: 20px;
+  top: 19px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  position: absolute;
+  width: 550px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+  position: absolute;
+  width: 178.79px;
+  height: 26.22px;
+  left: 20px;
+  top: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+#app-name{
+  height: 24px;
+  width: 146.79px;
+  position: absolute;
+  color:#FFFFFF;
+  left:58px;
+  top:21px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#course{
+  height:14px;
+  width:189px;
+  position: absolute;
+  top:25px;
+  left:355px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  color:#FFFFFF;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
+
+.form{
+  display: grid;
+  grid-template:40px 40px / 1fr 1fr;
+  gap:17px;
+}
+
+.form-component{
+  top:65px;
+  position: absolute;
+}
+
+.form-main{
+  padding:56px;
+}
+
+.input-field1{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 0.5px solid  D5D4D8;
+  text-indent: 5px;
+}
+
+.input-field2{
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 0.5px solid D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  font-style: normal;
+  border:none;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
+#meme-images{
+  position: absolute;
+width: 477px;
+height: 268px;
+left: 36px;
+top: 200px;
+border-radius: 2px;
 }
