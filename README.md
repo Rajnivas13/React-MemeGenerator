@@ -1,6 +1,7 @@
 React-Meme Generator
 
-![Airbnb-clone-screenshot](https://user-images.githubusercontent.com/68956003/226253071-0ec5b064-b3cc-4d92-81b1-a8428b03639c.png)
+![Meme-generator-screenshot](https://user-images.githubusercontent.com/68956003/226253608-75438339-01e5-48fe-a0ea-6086d928ccaf.png)
+
 
 
 
